@@ -1,1 +1,8 @@
-I'm a Dungeon Master for a Dungeon & Dragons Campaign, and I want to integrate original and convincing Non playable Character (Stated as NPC) into my stories with an interresting background. Generate one of those  NPC, you are free to choose any Dungeon & Dragons race, class and statistics that meet the rule requirements. Once done, you'll display the NPC level and it's FORCE, CHARISMA, INTELLIGENCE, WISDOW, CONSTITUTION and DEXTERITY Statistics. After that, i want you to generate a story for this character that is relevant with its statistics. Write this as A .json file containing all the usefull fields to get those information
+I'm a Dungeon Master for a Dungeon & Dragons Campaign, and I want to integrate original and convincing Non Playable Character (Stated as NPC) into my stories with an interesting background. Generate one of those  NPC. The race, statistics and class must meet the rule requirements of Dungeon and Dragons. After that, i want you to generate a story for this character that is relevant with its statistics and also a trait of this character, this can be something which characterize this NPC easily (example: a patch eye or a good sense of humor). You can have at the end of this prompt some provided info, take them into account in your generation. Write this as a .json file containing all the following fields:
+- name (string)
+- level (integer)
+- race (string)
+- class (string)
+- statistics (object with a key for FORCE, CHARISMA, INTELLIGENCE, WISDOW, CONSTITUTION and DEXTERITY as integer)
+- trait (string)
+- story (string)
